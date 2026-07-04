@@ -2,7 +2,7 @@
   "name": "discord-stripe-integration",
   "version": "1.0.0",
   "description": "Grants a Discord role automatically when a Stripe subscription payment succeeds, and revokes it on cancellation or failed renewal.",
-  "main": "src/index.js",
+  "main": "index.js",
   "engines": { "node": ">=18" },
   "scripts": {
     "start": "node src/index.js"
