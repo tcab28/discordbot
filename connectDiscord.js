@@ -1,6 +1,6 @@
 const express = require('express');
 const crypto = require('crypto');
-const config = require('../config');
+const config = require('./config');
 
 const router = express.Router();
 
