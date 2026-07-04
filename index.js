@@ -2,9 +2,9 @@ const express = require('express');
 const config = require('./config');
 const db = require('./db');
 
-const connectDiscordRoute = require('./routes/connectDiscord');
-const oauthCallbackRoute = require('./routes/oauthCallback');
-const stripeWebhookRoute = require('./routes/stripeWebhook');
+const connectDiscordRoute = require('./connectDiscord');
+   const oauthCallbackRoute = require('./oauthCallback');
+   const stripeWebhookRoute = require('./stripeWebhook');
 
 const app = express();
 
