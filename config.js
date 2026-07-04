@@ -32,10 +32,9 @@ module.exports = {
   // Add one entry per membership tier. Find Price IDs in Stripe Dashboard > Product catalog,
   // and Role IDs in Discord by enabling Developer Mode > right-click a role > Copy Role ID.
   tierMap: {
-       'price_1TpCnTE0kxexL85HwfOyd9qm': {
-         roleId: '1518620333702250699',
-         name: 'Strategy Suite',
-       },
+    'price_1TpCnTE0kxexL85HwfOyd9qm': {
+      roleId: '1518620333702250699',
+      name: 'Strategy Suite',
     },
     // 'price_ANOTHER_PRICE_ID': { roleId: 'ANOTHER_ROLE_ID', name: 'VIP' },
   },
