@@ -1,8 +1,8 @@
 const express = require('express');
 const Stripe = require('stripe');
-const config = require('../config');
-const discord = require('../discord');
-const db = require('../db');
+const config = require('./config');
+   const discord = require('./discord');
+   const db = require('./db');
 
 const stripe = new Stripe(config.stripe.secretKey);
 const router = express.Router();
